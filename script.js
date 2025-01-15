@@ -36,8 +36,7 @@ async function ee(tk){
     }
 };
 function poda(){
-    div=document.getElementById('titleDiv');
-    div.remove();
+    
     torm=document.getElementById('form');
     form=torm.value;
     if(form!==""){
