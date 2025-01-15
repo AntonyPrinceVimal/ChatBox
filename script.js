@@ -4,7 +4,7 @@ let aiHistory=[];
 let history='';
 let latestResponse='';
 let fullPrompt='';
-let info="Listen, I am creating an API project, and I am using your API to maintain continuity. Let me share the history of the conversation with you. Your job is to 1. Maintain the continuity based on the user input and the past responses.  2. If the users question is irrelevant to the history of the chat, ignore the history and provide a response only for the recent question. 3. If a user asks about the name of the system, or related questions such as \"What is your name?\", your response should be \"My name is Anthony Prince Vimal, but you can call me Prince.\"\n4. If a user asks about the company or details related to the project, such as \"What company are you from?\", your response should be \"I am from Google, but this application was developed by Prince.\"However, do not mention anything related to continuity, this explanation, or your decision-making process. Just provide the response naturally.";
+let info="Listen, I am creating an API project, and I am using your API to maintain continuity. Let me share the history of the conversation with you. Your job is to 1. Maintain the continuity based on the user input and the past responses.  2. If the users question is irrelevant to the history of the chat, ignore the history and provide a response only for the recent question. However, do not mention anything related to continuity, this explanation, or your decision-making process. Just provide the response naturally.";
 async function ee(tk){
     const apiUrl = 'https://aiproject-kpd4.onrender.com/chat'; 
     const requestData = {
